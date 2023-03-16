@@ -1,12 +1,12 @@
 body {
     background: #c9e2ff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
     cursor: default;
   }
   
   .title {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Noto Sans', sans-serif;
     position: absolute;
     top: 40px;
     left: 50%;
@@ -43,21 +43,6 @@ body {
     gap: 5px;
   }
   
-  .field {
-    color: #000000;
-    padding: 5px;
-    gap: 2px;
-    font-weight: bold;
-    border-radius: 5px;
-    width: 100px;
-    height: 30px;
-    max-width: 170px;
-  }
-  
-  .field:hover {
-    cursor: pointer;
-  }
-  
   #pais {
     justify-content: center;
     align-items: center;
@@ -83,7 +68,7 @@ body {
   }
   
   footer {
-    background-color: #da3c3c;
+    background-color: #b2b2b2;
     text-align: center;
     width: 50%;
     height: 25px;

@@ -11,6 +11,19 @@
       die("Connection failed: " . mysqli_connect_error());
     }
 
+    $createTable = "CREATE TABLE IF NOT EXISTS logCovidKidop (
+        ID INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+        dataHora TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        Pais VARCHAR(30)
+      )";
+      
+      // Execução do comando SQL
+      if (mysqli_query($conn, $createTable)) {
+        echo "";
+      } else {
+        echo "Erro na criação da tabela: " . mysqli_error($conn);
+      }
+
     //Estilo da pagina da API
     echo "<style type='text/css'>
         #api {
@@ -96,9 +109,9 @@
     VALUES (CURRENT_TIMESTAMP, '%s')", $value_button);
 
     if (mysqli_query($conn, $sql)) {
-        echo "Tabela criada com sucesso!";
+        echo "";
     } else {
-        echo "Erro na criação da tabela: " . mysqli_error($conn);
+        echo "Error " . mysqli_error($conn);
     }
 
     //Fecha a conexão
