@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Dados COVID-19</title>
+
+		<link rel="stylesheet" href="./assets/css/reset.css">
+		<link rel="stylesheet" href="./assets/css/style-home.css">
+    </head>
+
+	<body>
+
+		<header>
+			<h1 class="title">Consulta de Dados de COVID-19</h1>
+			<a href="#"><img class="logo" src="./assets/images/logo.png" alt="Logo Kidopi"></a>
+			<php src="./conectSql.php"><h1></h1></php>
+		</header>
+		<main>
+			<a href="#"><img class="map" src="./assets/images/map.png" alt="Mapa mundi"></a>
+			<p class="options">Escolha um páis</p>
+			<div class="buttons">
+				<form method="post" action="api.php">
+					<button name="Button" value="Brazil" class="field" id="brasil" type="submit">Brasil</button>
+				</form>
+
+				<form method="post" action="api.php">
+					<button name="Button" value="Canada" class="field" id="canada" type="submit">Canadá</button>
+				</form>
+
+				<form method="post" action="api.php">
+					<button name="Button" value="Australia" class="field" id="australia" type="submit">Austrália</button>
+				</form>
+			</div>
+		
+			<script src="./assets/js/script.js"></script>
+		</main>
+
+		<footer>
+			<div id="rodape"></div>
+		</footer>
+
+		<php src="./conectSql.php"></php>
+		<script src="./assets/js/script.js"></script>
+
+	</body>
+</html>
+
+    

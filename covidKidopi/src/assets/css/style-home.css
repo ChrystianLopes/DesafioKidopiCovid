@@ -1,0 +1,114 @@
+body {
+    background: #c9e2ff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    cursor: default;
+  }
+  
+  .title {
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .logo {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    cursor: default;
+  }
+  
+  .map {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    cursor: default;
+  }
+  
+  .buttons {
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .field {
+    color: #000000;
+    padding: 5px;
+    gap: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    max-width: 170px;
+  }
+  
+  .field:hover {
+    cursor: pointer;
+  }
+  
+  #pais {
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    padding: 5px;
+    gap: 2px;
+    font-weight: bold;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .options {
+    font-weight: bold;
+    position: absolute;
+    font-size: 20px;
+    top: 330px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  footer {
+    background-color: #da3c3c;
+    text-align: center;
+    width: 50%;
+    height: 25px;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    font-size: 10px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 25px;
+      top: 20px;
+    }
+    .map {
+      top: 150px;
+    }
+    .buttons {
+      top: 300px;
+    }
+    #pais {
+      top: 280px;
+    }
+    .options {
+      top: 260px;
+    }
+  }
+  
