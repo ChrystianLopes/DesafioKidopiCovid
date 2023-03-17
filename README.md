@@ -9,5 +9,8 @@
  Link da API utilizada: https://dev.kidopilabs.com.br/exercicio/covid.php?listar_paises=1
  
  <p align= "center">
-  <img width="460" height="300" src="src/assets/to_readme/gif-Covid.gif"
+  <img width="460" height="300" src="src/assets/to_readme/index.jpg"
+ </p>
+ <p align= "center">
+  <img width="460" height="300" src="src/assets/to_readme/dados.jpg"
  </p>
